@@ -1,0 +1,138 @@
+.top {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: space-around;
+  background-color: rgb(243, 243, 243);
+}
+
+.top-logo img {
+  height: 70px;
+  width: 110px;
+}
+
+.top-login {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: 1000;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.search {
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-logo {
+  margin-right: 50px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+#study-select {
+  height: 46px;
+  width: 130px;
+  padding-left: 10px;
+}
+
+.search-text {
+  height: 45px;
+  width: 500px;
+  border: none;
+  border: none;
+}
+
+.search-form input:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+}
+
+.nav {
+  background-color: #94dbfb;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.nav_btn {
+  margin-right: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav .footer_nav {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_nav_list {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-btn {
+  margin-right: 50px;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_info_logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+}
+
+.footer_info_company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 0px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 13px;
+}

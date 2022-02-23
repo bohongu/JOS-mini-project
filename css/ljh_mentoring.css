@@ -1,0 +1,71 @@
+.tg {
+	height:100%;
+	width:100%;
+	border-color: gray;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-spacing: 10px;
+}
+
+.tg td {
+	border-style: solid;
+	border-width: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 10px;
+	word-break: normal;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.tg th {
+	border-style: solid;
+	border-width: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 10px;
+	word-break: normal;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.tg .tg-lrzm {
+	border-color: #343434;
+	font-size: 15px;
+	text-align: center;
+	vertical-align: top
+}
+
+.tg .tg-v9sq {
+	height:50px; /* 멘토링 한마디 크기 안맞을때 조절해주기  */
+	border-color: #343434;
+	font-size: 20px;
+	text-align: left;
+	vertical-align: top
+}
+
+.tg .tg-rwcs {
+	border-color: #343434;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: top
+}
+
+.tg .tg-x9s2 {
+	border-color: #343434;
+	font-size: 13px;
+	text-align: left;
+	vertical-align: top
+	
+}
+
+.tg-rwcs {
+	width: 120px;
+	height: 120px;
+	border-spacing: 2px;
+	border-collapse: separate;
+}

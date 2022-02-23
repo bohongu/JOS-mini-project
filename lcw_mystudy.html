@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>JOS(Join Our Study)</title>
+	<link rel="stylesheet" href="./css/lcw_study1.css" />
+	<link rel="stylesheet" href="./css/lcw_studygroup.css" />
+	<link rel="stylesheet" href="./css/lcw_sub_list.css" />
+	
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/lcw_card_list_my.js"></script>
+	<link rel="stylesheet" href="./css/top.css">
+
+</head>
+
+<body>
+	<div class="top">
+		<div class="top-logo"><a href="index.html"> <img src="img/logo.png" /></a></div>
+		<div class="top-login">
+		  <span><a href="./login.html">로그인</a></span>
+		  <span><a href="./certification.html">회원가입</a></span>
+		  <span><a href="./sk_mypage.html">마이페이지</a></span>
+		</div>
+	  </div>
+	<div class="search">
+		<img src="img/back-jjj.jpg">
+		<form class="search-form" action="#">
+			<select name="pets" id="study-select">
+				<option value="dog">멘토링</option>
+				<option value="cat">스터디모집</option>
+				<option value="hamster">개인스터디 플래너</option>
+				<option value="hamster">커뮤니티</option>
+			</select> <input class="search-text" type="text" /> <input type="button" value="찾기" />
+		</form>
+	</div>
+	<nav class="nav">
+		<ul class="nav_list">
+			<li class="nav_btn">
+				<a href="./ljh_mentoring.html">멘토링</a>
+			  </li>
+			  <li class="nav_btn">
+				<a href="./lcw_studygroup.html">스터디모집</a>
+			  </li>
+			  <li class="nav_btn">
+				<a href="./planner.html">개인스터디 플래너</a>
+			  </li>
+			  <li class="nav_btn">
+				<a onclick="window.open('comu.html','_blank','width=420,height=570,location=no,status=no,scrollbars=yes')"
+          style="cursor:pointer;">커뮤니티</a>
+			  </li>
+		</ul>
+	</nav>
+	<br>
+	<!--    //////////////////////////////////////////////////////////////  -->
+	<section class="sub_wrap sub_wrap02">
+		<div class="content-container">
+
+			<div class="side_sub_filter">
+				<form action="">
+					<div class="left-sidebar-top">
+						<a href="./lcw_studygroup.html"><img src="./img/lcw_main_menu5.png" class="sidebar-top-study"><span class="study">
+							스터디모집</span>
+							</a>
+					</div>
+					<!-- div class="left-sidebar-top" 엔드  -->
+					<div>
+						<div class="left-sidebar-line1">
+							<br>
+							<a href="./lcw_mystudy.html"><p class="left-sidebar-mystudy" >나의 스터디</p></a>
+							<br>
+						</div>
+					</div>
+					<div>
+						<div class="left-sidebar-line">
+							<br>
+							<p class="left-sidebar-title">모집분야</p>
+							<br>
+							<ul>
+								<li><input type="checkbox" id="checkfield" value="취업">취업</li><br>
+								<li><input type="checkbox" id="checkfield" value="어학">어학</li><br>
+								<li><input type="checkbox" id="checkfield" value="자격증">자격증</li><br>
+								<li><input type="checkbox" id="checkfield" value="기타">기타</li><br>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div class="left-sidebar-line">
+							<br>
+							<p class="left-sidebar-title">모집상태</p>
+							<br>
+							<ul>
+								<li><input type="checkbox" id="checkfield" value="모집중">모집중</li><br>
+								<li><input type="checkbox" id="checkfield" value="모집완료">모집완료</li><br>
+
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div class="left-sidebar-line">
+							<br>
+							<p class="left-sidebar-title">국내외 여부</p>
+							<br>
+							<ul>
+								<li><input type="checkbox" id="checkfield" value="모집중">국내</li><br>
+								<li><input type="checkbox" id="checkfield" value="모집완료">국외</li><br>
+
+							</ul>
+						</div>
+					</div>
+					<!--left-sidebar-checkfield  -->
+			</div>
+			</form>
+			<!-- div class="left-sidebar" -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////-->
+			<div class="px20px"></div>
+			<div class="sub_con_wrap">
+				<div class="sub_con">
+					<div class="list_sub_wrap">
+						<div class="list_type_title">
+							<h1> <span class="type_pick01">나의 </span>&nbsp; 스터디 PICK
+								<!-- ( 8 건 ) -->
+								<p class="tpick">함께 모여 스펙 올리기</p>
+							</h1>
+						</div>
+						<div class="partition">
+							<div>
+								<h1 class="crack1">|| 취업 스터디</h1>
+															<h1 class="crack2">|| 자격증 스터디</h1>
+							</div>
+							<ul class="sub_cnt_slide_wrap sub_cnt_slide01_wrap">
+								<li class="sub_cnt_list sub_cnt_list01 ">
+									<a href="/web/goods/goods.view.php?gidx=18263" class="new_out_bg on">
+										<p class="spec_pick"></p>
+										<div class="pick_con_img"
+											style="background-image:url('/images/career_study.jpg')">
+										</div>
+
+										<div class="main_cnt_txtbox">
+											<dl>
+												<dt class="view20Byte"></dt>
+												<dd>
+													<p class="infor txt01"><span class="red cate_infor"></span></p>
+													<p class="infor thin date_infor txt02"></p>
+													<p class="infor2 thin txt03"><span class="check_person thin">
+															<strong></strong></span><span class="thin add_infor"></span>
+													</p>
+												</dd>
+												<dd>
+													<p class="infor3"><strong class="thin"><span
+																class="red thin"></span></strong></p>
+												</dd>
+											</dl>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="partition">
+							<ul class="sub_cnt_slide_wrap sub_cnt_slide01_wrap">
+								<li class="sub_cnt_list sub_cnt_list01 ">
+									<a href="/web/goods/goods.view.php?gidx=18263" class="new_out_bg on">
+										<p class="spec_pick"></p>
+										<div class="pick_con_img"
+											style="background-image:url('/images/career_study.jpg')">
+										</div>
+
+										<div class="main_cnt_txtbox">
+											<dl>
+												<dt class="view20Byte"></dt>
+												<dd>
+													<p class="infor txt01"><span class="red cate_infor"></span></p>
+													<p class="infor thin date_infor txt02"></p>
+													<p class="infor2 thin txt03"><span class="check_person thin">
+															<strong></strong></span><span class="thin add_infor"></span>
+													</p>
+												</dd>
+												<dd>
+													<p class="infor3"><strong class="thin"><span
+																class="red thin"></span></strong></p>
+												</dd>
+											</dl>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- 		<div class="subboard-study"></div> -->
+				</div>
+			</div>
+	</section>
+	<div class="onthefooter"></div>
+	<!--    //////////////////////////////////////////////////////////////  -->
+	<footer class="footer">
+		<nav class="footer_nav">
+			<ul class="footer_nav_list">
+				<li class="footer-btn"><a href="#">JOS소개</a></li>
+				<li class="footer-btn"><a href="#">이용약관</a></li>
+				<li class="footer-btn"><a href="#">개인정보처리방침</a></li>
+				<li class="footer-btn"><a href="#">광고/제휴</a></li>
+				<li class="footer-btn"><a href="#">1:1문의</a></li>
+			</ul>
+		</nav>
+		<div class="footer_info">
+			<div class="footer_info_logo">
+				<a href="#">JOS</a>
+			</div>
+			<div class="footer_info_company">
+				<div>
+					<span>고객센터 : 1234-56789 (평일 09:30 ~ 18:30 / 점심 12:00 ~ 13:00)
+						ㅣ FAX : 1234-567-8901 ㅣ Email: multi@multicam.com</span>
+				</div>
+				<div>
+					<span>JOS | 서울특별시 멀캠구 멀캠대로 635 멀캠빌딩 3층 ㅣ 대표: 김멀캠</span>
+				</div>
+				<div>
+					<span>사업자등록번호: 123-45-67890 ㅣ 통신판매업신고번호: 제 2022-멀캠멀캠-1245호</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

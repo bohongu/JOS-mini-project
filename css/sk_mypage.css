@@ -1,0 +1,304 @@
+@import "reset.css";
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ left side bar */
+
+
+
+.my_page_t {
+  overflow: hidden;
+  padding: 10px 0 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.my_page_t > span {
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
+  color: #757575;
+  line-height: 40px;
+  vertical-align: top;
+}
+
+.side_sub_filter {
+  width: 350px;
+  float: left;
+  margin: 0px;
+  border: 1px solid #e1e1e1;
+  height: 100%;
+  display: block;
+  min-height: 100%;
+  border-top: none;
+  border-bottom: none;
+}
+
+.side_title {
+  font-size: 27.58px;
+  color: #191717;
+  font-weight: 500;
+  border-bottom: 3px solid #94dbfb;
+  vertical-align: middle;
+  line-height: 45px;
+  padding: 33px 32px 38px;
+}
+
+.side_section h4 {
+  font-size: 24px;
+  color: #373737;
+  font-weight: 400;
+  margin: 40px 0 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.side_section {
+  /* margin: 0 20px; */
+  padding: 0 10px;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 32px 12px;
+  margin-bottom: 20px;
+}
+
+.side_ul02 li a {
+  color: #838383;
+  display: block;
+  outline: none;
+}
+
+.side_ul02 {
+  padding-left: 10px;
+  line-height:30pt;
+
+}
+
+.side_section:last-child {
+  margin-bottom: 40px;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 내정보 메인 화면 */
+
+
+
+.my_infor00 h1 {
+  color: #373737;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.my_infor00 p {
+  font-size: 16px;
+  color: #969696;
+  display: block;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.my_infor_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.my_infor_profile {
+  display: flex;
+ /* justify-content: space-between; */
+  height: 628px;
+}
+
+.my_profile_img span {
+  display: block;
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid #e0e7e5;
+  overflow: hidden;
+}
+
+.my_profile_img {
+  width: 144px;
+  height: 144px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.myProfile p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #767676;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.myProfile p img {
+  width: 20px;
+}
+
+.my_pro_name > p {
+  color: #373737;
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+span.fontname {
+  font-size: 16px;
+  color: #979797;
+  font-weight: 300;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.my_profile {
+  margin-right: 40px;
+}
+
+.my_profile02 {
+  text-align: left;
+}
+
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.mypage_myinfor {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.title{
+  display: inline-block;
+  height: 25px;
+}
+
+.top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(243, 243, 243, 0.7);
+}
+
+.top-login {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.search {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-logo {
+  margin-right: 50px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+#study-select {
+  height: 35px;
+  width: 100px;
+}
+
+.search-text {
+  height: 28px;
+  width: 500px;
+}
+
+.search-form input:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.nav {
+  background-color: #94dbfb;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.nav_btn {
+  margin-right: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_nav_list {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.footer-btn {
+  margin-right: 50px;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+
+.footer_info_logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+}
+
+.footer_info_company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 0px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 11px;
+}
